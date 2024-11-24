@@ -12,7 +12,7 @@ import logging
 import os
 
 # Static Google API Key (ensure it's secure in production)
-GOOGLE_API_KEY = "AIzaSyDqui1f0QXykGcKYpHzZIlA16JLEQfLmzc"
+GOOGLE_API_KEY = "yours_api_key"
 
 # Initialize models through LangChain with correct model names
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=GOOGLE_API_KEY)
